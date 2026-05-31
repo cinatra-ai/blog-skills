@@ -1,0 +1,16 @@
+{
+  "name": "@cinatra-ai/blog-skills",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Cinatra asset-blog generation skills — blog-ideas / blog-post-draft / linkedin-post prompts relocated out of packages/asset-blog. Registered into the skills catalog at workspace level.",
+  "type": "module",
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "capabilities": {
+      "blog.generate-ideas": "generate-blog-ideas",
+      "blog.generate-post-draft": "generate-blog-post-draft",
+      "blog.generate-linkedin-post": "generate-linkedin-post"
+    }
+  }
+}
