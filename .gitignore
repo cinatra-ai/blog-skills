@@ -20,3 +20,6 @@ dist/
 .vscode/
 *.swp
 *~
+
+# Internal planning notes (local only)
+.planning/
