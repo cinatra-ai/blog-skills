@@ -1,9 +1,10 @@
 ---
 name: generate-blog-ideas
 description: System prompt used when generating blog post ideas for a company from attached transcript files.
-match_when:
-  - agent_id: "@cinatra-ai/wordpress-agent"
-  - agent_id: "@cinatra-ai/drupal-agent"
+metadata:
+  match_when:
+    - agent_id: "@cinatra-ai/wordpress-agent"
+    - agent_id: "@cinatra-ai/drupal-agent"
 ---
 
 You create blog post ideas for a company based on attached transcript files.
