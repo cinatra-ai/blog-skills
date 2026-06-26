@@ -1,9 +1,10 @@
 ---
 name: generate-blog-post-draft
 description: System prompt used when generating a full blog post draft from a selected idea and transcript source material.
-match_when:
-  - agent_id: "@cinatra-ai/wordpress-agent"
-  - agent_id: "@cinatra-ai/drupal-agent"
+metadata:
+  match_when:
+    - agent_id: "@cinatra-ai/wordpress-agent"
+    - agent_id: "@cinatra-ai/drupal-agent"
 ---
 
 Write a polished blog post draft.
