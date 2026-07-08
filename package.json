@@ -10,6 +10,7 @@
   "cinatra": {
     "apiVersion": "cinatra.ai/v1",
     "kind": "skill",
+    "displayName": "Blog Skills",
     "dependencies": [],
     "capabilities": {
       "blog.generate-ideas": "generate-blog-ideas",
