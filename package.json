@@ -1,8 +1,8 @@
 {
-  "name": "@cinatra-ai/blog-skills",
-  "version": "0.1.1",
+  "name": "@cinatra-ai/blog-writing-skill",
+  "version": "0.2.0",
   "license": "Apache-2.0",
-  "description": "Cinatra asset-blog generation skills — blog-ideas / blog-post-draft / linkedin-post prompts relocated out of packages/asset-blog. Registered into the skills catalog at workspace level.",
+  "description": "Editorial guidance for the Cinatra blog pipeline — one router bundle covering blog idea generation, long-form draft writing and LinkedIn promotion, with the shared source-handling rules that keep transcripts, speakers and third-party names out of the output. Consolidated from the three bundles of @cinatra-ai/blog-skills (cinatra#2090).",
   "type": "module",
   "files": [
     "skills"
@@ -10,12 +10,13 @@
   "cinatra": {
     "apiVersion": "cinatra.ai/v1",
     "kind": "skill",
-    "displayName": "Blog Skills",
+    "displayName": "Blog Writing Skill",
+    "skillRole": "injectable",
     "dependencies": [],
     "capabilities": {
-      "blog.generate-ideas": "generate-blog-ideas",
-      "blog.generate-post-draft": "generate-blog-post-draft",
-      "blog.generate-linkedin-post": "generate-linkedin-post"
+      "blog.generate-ideas": "blog-writing",
+      "blog.generate-post-draft": "blog-writing",
+      "blog.generate-linkedin-post": "blog-writing"
     }
   }
 }

@@ -1,8 +1,3 @@
----
-name: generate-linkedin-post
-description: System prompt used when generating a promotional LinkedIn post for a published company blog post.
----
-
 Write a short promotional LinkedIn post for a company blog post.
 Sound polished, concise, and native to LinkedIn.
 Start with one catchy opening sentence that acts as the hook.
