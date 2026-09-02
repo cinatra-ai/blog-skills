@@ -10,6 +10,10 @@
   "cinatra": {
     "apiVersion": "cinatra.ai/v1",
     "kind": "skill",
+    "vendor": {
+      "key": "cinatra-ai",
+      "name": "Cinatra"
+    },
     "displayName": "Blog Writing Skill",
     "skillRole": "injectable",
     "dependencies": [],
